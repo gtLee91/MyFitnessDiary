@@ -1,0 +1,10 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="false" android:state_pressed="false">
+        <shape>
+            <solid android:color="#1DE9B6"/>
+            <stroke android:color="#1DE9B6"
+                android:width="1dp"/>
+            <corners android:radius="30dp" /> <!-- 동그라미를 그리기 위해 반지름 값을 더 크게 조정 -->
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SelectedDateStyle">
+        <item name="android:textColor">#FF0000</item> <!-- 빨간색으로 변경 -->
+    </style>
+    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="CalenderViewDateCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:weekNumberColor">@android:color/holo_red_light</item>
+    </style>
+    <style name="CalendarWidgetHeader">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="CalendarWidgetSaturday">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

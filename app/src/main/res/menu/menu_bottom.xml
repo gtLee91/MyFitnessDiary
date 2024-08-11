@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab1"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/home_small"
+        android:title="Home"
+        android:titleTextColor="#000000"
+        android:iconTint="#000000" />
+
+    <item
+        android:id="@+id/tab2"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/food_small"
+        android:title="Food"
+        android:titleTextColor="#000000"
+        android:iconTint="#000000"/>
+
+    <item
+        android:id="@+id/tab3"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/plan_small"
+        android:title="Plan"
+        android:titleTextColor="#000000"
+        android:iconTint="#000000"/>
+
+    <item
+        android:id="@+id/tab4"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/running_small"
+        android:title="Progress"
+        android:titleTextColor="#000000"
+        android:iconTint="#000000"/>
+
+    <item
+        android:id="@+id/tab5"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/report_small"
+        android:title="Report"
+        android:titleTextColor="#000000"
+        android:iconTint="#000000"/>
+
+</menu>
